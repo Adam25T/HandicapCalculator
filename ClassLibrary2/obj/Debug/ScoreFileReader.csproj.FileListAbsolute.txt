@@ -1,0 +1,5 @@
+C:\Users\Adam\Documents\GitHub\HandicapCalculator\ClassLibrary2\bin\Debug\ClassLibrary2.dll
+C:\Users\Adam\Documents\GitHub\HandicapCalculator\ClassLibrary2\bin\Debug\ClassLibrary2.pdb
+C:\Users\Adam\Documents\GitHub\HandicapCalculator\ClassLibrary2\obj\Debug\ScoreFileReader.csprojResolveAssemblyReference.cache
+C:\Users\Adam\Documents\GitHub\HandicapCalculator\ClassLibrary2\obj\Debug\ClassLibrary2.dll
+C:\Users\Adam\Documents\GitHub\HandicapCalculator\ClassLibrary2\obj\Debug\ClassLibrary2.pdb

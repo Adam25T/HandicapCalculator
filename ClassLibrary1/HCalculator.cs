@@ -9,9 +9,13 @@ namespace Calculator
     public class HCalculator
     {
         private List<double> hDifferentials = new List<double>();
-        
+        private int totalRounds { get; }
+        public int getTotalRounds() {
+            return totalRounds;
+        }
         public HCalculator(List<double> list) {
             hDifferentials = list;
+            totalRounds = hDifferentials.Count;
         }
 
         private double computeIndex(List<double> diffList, int upTo) {

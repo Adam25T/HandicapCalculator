@@ -10,7 +10,7 @@ namespace ScoreFileReader
     public class ScoreReader
     {
         private List<double> differentials = new List<double>();
-        private int totalRounds { get; }
+
         public List<double> getDifferentials() {
             differentials.Sort();
             return differentials;
@@ -26,7 +26,7 @@ namespace ScoreFileReader
         public ScoreReader() {
             Console.WriteLine("Enter file path for scores: ");
             string filePath = Console.ReadLine();
-            string dafilePath = "C:\\Users\\Manifest\\Documents\\GitHub\\HandicapCalculator\\scores_text.txt";
+            string dafilePath = "C:\\Users\\Adam\\Documents\\GitHub\\HandicapCalculator\\scores_text.txt";
             try {
                 using (StreamReader sr = new StreamReader(dafilePath)) {
                     string valueLine;
@@ -50,7 +50,7 @@ namespace ScoreFileReader
             catch (FileNotFoundException) {
                 Console.WriteLine("Score reader could not find the file you specified...");
             }
-            totalRounds = differentials.Count;
+            
         }
     }
 }

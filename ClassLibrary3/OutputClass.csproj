@@ -4,17 +4,15 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{979050C7-709F-4B3D-AAFC-F117C44604A3}</ProjectGuid>
-    <OutputType>Exe</OutputType>
+    <ProjectGuid>{115715BE-0852-4036-8BBA-8BB59CDFBC3E}</ProjectGuid>
+    <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>ConsoleApplication1</RootNamespace>
-    <AssemblyName>ConsoleApplication1</AssemblyName>
+    <RootNamespace>ClassLibrary3</RootNamespace>
+    <AssemblyName>ClassLibrary3</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
-    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
-    <PlatformTarget>AnyCPU</PlatformTarget>
     <DebugSymbols>true</DebugSymbols>
     <DebugType>full</DebugType>
     <Optimize>false</Optimize>
@@ -24,7 +22,6 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
-    <PlatformTarget>AnyCPU</PlatformTarget>
     <DebugType>pdbonly</DebugType>
     <Optimize>true</Optimize>
     <OutputPath>bin\Release\</OutputPath>
@@ -43,24 +40,13 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Program.cs" />
+    <Compile Include="Output.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\ClassLibrary1\Calculator.csproj">
       <Project>{8e9963b7-3f7b-4315-b3f2-b2ccac68d7f9}</Project>
       <Name>Calculator</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\ClassLibrary2\ScoreFileReader.csproj">
-      <Project>{3fa6bc93-346f-46be-b726-333fcdd494ba}</Project>
-      <Name>ScoreFileReader</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\ClassLibrary3\OutputClass.csproj">
-      <Project>{115715be-0852-4036-8bba-8bb59cdfbc3e}</Project>
-      <Name>OutputClass</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
