@@ -1,9 +1,13 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
-VisualStudioVersion = 14.0.25123.0
+VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HandicapCalculator", "ConsoleApplication1\HandicapCalculator.csproj", "{979050C7-709F-4B3D-AAFC-F117C44604A3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Calculator", "ClassLibrary1\Calculator.csproj", "{8E9963B7-3F7B-4315-B3F2-B2CCAC68D7F9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ScoreFileReader", "ClassLibrary2\ScoreFileReader.csproj", "{3FA6BC93-346F-46BE-B726-333FCDD494BA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +19,14 @@ Global
 		{979050C7-709F-4B3D-AAFC-F117C44604A3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{979050C7-709F-4B3D-AAFC-F117C44604A3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{979050C7-709F-4B3D-AAFC-F117C44604A3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8E9963B7-3F7B-4315-B3F2-B2CCAC68D7F9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8E9963B7-3F7B-4315-B3F2-B2CCAC68D7F9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8E9963B7-3F7B-4315-B3F2-B2CCAC68D7F9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8E9963B7-3F7B-4315-B3F2-B2CCAC68D7F9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3FA6BC93-346F-46BE-B726-333FCDD494BA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3FA6BC93-346F-46BE-B726-333FCDD494BA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3FA6BC93-346F-46BE-B726-333FCDD494BA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3FA6BC93-346F-46BE-B726-333FCDD494BA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
